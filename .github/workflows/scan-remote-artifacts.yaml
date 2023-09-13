@@ -7,7 +7,7 @@ env:
 name: Scan remote objects with Sysdig
 on:
   workflow_dispatch:
-e
+
 jobs:
   build:
     runs-on: ubuntu-latest
