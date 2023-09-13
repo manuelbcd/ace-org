@@ -4,7 +4,7 @@ env:
     BUILD_FOLDER: "app-basic"
     IMAGES: ("nginx:1.25.2-bookworm-perl" "redis:7.0")
 
-name: Build and Scan with Sysdig
+name: Scan remote objects with Sysdig
 on:
   workflow_dispatch:
 
