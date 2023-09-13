@@ -1,0 +1,31 @@
+
+
+Este archivo contiene resultados de vulnerability scan de Snyk: https://drive.google.com/file/d/1vVGWsMWtZO7bZX0gWIMJdnwD2dRa6-YP/view?usp=share_link
+Escribe un script en python que cargue dicho fichero y lo convierta en un CSV que contenga solo una serie de campos. 
+Los campos que cogeremos son id, vulnerabilities[].identifiers.CVE[], vulnerabilities[].packageName, vulnerabilities[].name, vulnerabilities[].version, vulnerabilities[].exploit, vulnerabilities[].nvdSeverity 
+y los nombres de estos campos en el archivo CSV resultante son id, CVE, packageName, name, version, exploit, nvd-severity.
+El fichero a cargar debe poder indicarse con una variable, también poder definir un path relativo al folder donde se estará ejecutando el script en python,
+la ruta relativa es "1-helloworld-from-alpine-3.17.1/snyk_result.json"
+
+
+
+
+Este archivo contiene resultados de vulnerability scan de Sysdig: https://drive.google.com/file/d/1TARXtPATXx9MDF5G4U4DlM5fkH1LCFEl/view?usp=share_link
+Escribe un script en python que cargue dicho fichero y lo convierta en un CSV que contenga solo una serie de campos. 
+Ignoraremos la lista 'vulnerabilities' y usaremos la lista 'packages'. Ten en cuenta que la lista 'packages' contiene objetos package 
+con una sub-lista que contiene las vulnerabilidades asociadas a dicho package. 
+En el CSV resultante crearemos una linea por cada vulnerabilidad de cada package. 
+Los campos que cogeremos son metadata.imageID, de packages.list[].vulnerabilities.name, packages.list[].name, '', 
+packages.list[].version, package.list[].vulnerabilities[].exploitable, package.list[].vulnerabilities[].severity 
+y los nombres de estos campos en el archivo CSV resultante son imageID, CVE, packageName, null, version, exploitable, nvd-severity.
+El fichero a cargar debe poder indicarse con una variable, también poder definir un path relativo al folder donde se estará ejecutando el script en python,
+la ruta relativa es "1-helloworld-from-alpine-3.17.1/sysdig_result.json"
+
+
+
+Este archivo contiene resultados de vulnerability scan de Snyk: https://drive.google.com/file/d/1pJKbfR5onqS3ldvX2ZTMx9A8H_NoKcdM/view?usp=share_link
+Escribe un script en python que cargue dicho fichero y lo convierta en un CSV que contenga solo una serie de campos. 
+Los campos que cogeremos son imageID, Results[].Vulnerabilities[].VulnerabilityID, Results[].Vulnerabilities[].PkgName, Results[].Vulnerabilities[].Title, Results[].Vulnerabilities[].InstalledVersion, 'null', Results[].Vulnerabilities[].Severity 
+y los nombres de estos campos en el archivo CSV resultante son id, CVE, packageName, name, version, exploit, nvd-severity.
+El fichero a cargar debe poder indicarse con una variable, también poder definir un path relativo al folder donde se estará ejecutando el script en python,
+la ruta relativa es "1-helloworld-from-alpine-3.17.1/trivy_result.json"

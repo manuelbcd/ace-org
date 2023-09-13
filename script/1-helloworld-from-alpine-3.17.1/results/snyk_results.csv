@@ -1,0 +1,13 @@
+id,CVE,packageName,name,version,exploit,nvd-severity
+SNYK-ALPINE317-OPENSSL-3314647,['CVE-2023-0401'],openssl,NULL Pointer Dereference,3.0.7-r2,Not Defined,7.5
+SNYK-ALPINE317-OPENSSL-3314648,['CVE-2022-4203'],openssl,Out-of-bounds Read,3.0.7-r2,Not Defined,4.9
+SNYK-ALPINE317-OPENSSL-3314650,['CVE-2023-0215'],openssl,Use After Free,3.0.7-r2,Not Defined,7.5
+SNYK-ALPINE317-OPENSSL-3314651,['CVE-2023-0286'],openssl,Access of Resource Using Incompatible Type ('Type Confusion'),3.0.7-r2,Not Defined,7.4
+SNYK-ALPINE317-OPENSSL-3314657,['CVE-2022-4450'],openssl,Double Free,3.0.7-r2,Not Defined,7.5
+SNYK-ALPINE317-OPENSSL-3314658,['CVE-2023-0216'],openssl,NULL Pointer Dereference,3.0.7-r2,Not Defined,7.5
+SNYK-ALPINE317-OPENSSL-3314659,['CVE-2022-4304'],openssl,CVE-2022-4304,3.0.7-r2,Not Defined,5.9
+SNYK-ALPINE317-OPENSSL-3314660,['CVE-2023-0217'],openssl,NULL Pointer Dereference,3.0.7-r2,Not Defined,7.5
+SNYK-ALPINE317-OPENSSL-3368755,['CVE-2023-0464'],openssl,Improper Certificate Validation,3.0.7-r2,Not Defined,7.5
+SNYK-ALPINE317-OPENSSL-5291795,['CVE-2023-0465'],openssl,Improper Certificate Validation,3.0.7-r2,Not Defined,5.3
+SNYK-ALPINE317-OPENSSL-5296043,['CVE-2023-0466'],openssl,Improper Certificate Validation,3.0.7-r2,Not Defined,5.3
+SNYK-ALPINE317-OPENSSL-5438697,['CVE-2023-1255'],openssl,Out-of-bounds Read,3.0.7-r2,Not Defined,5.9

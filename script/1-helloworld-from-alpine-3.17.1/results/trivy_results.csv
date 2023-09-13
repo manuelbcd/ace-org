@@ -1,0 +1,25 @@
+id,CVE,packageName,name,version,exploit,nvd-severity
+sha256:815055a58d1a9da36d5c582486a6596207f595225c61b89132fef4cfbb423a53,CVE-2022-4450,libcrypto3,double free after calling PEM_read_bio_ex,3.0.7-r2,null,HIGH
+sha256:815055a58d1a9da36d5c582486a6596207f595225c61b89132fef4cfbb423a53,CVE-2023-0215,libcrypto3,use-after-free following BIO_new_NDEF,3.0.7-r2,null,HIGH
+sha256:815055a58d1a9da36d5c582486a6596207f595225c61b89132fef4cfbb423a53,CVE-2023-0216,libcrypto3,openssl: invalid pointer dereference in d2i_PKCS7 functions,3.0.7-r2,null,HIGH
+sha256:815055a58d1a9da36d5c582486a6596207f595225c61b89132fef4cfbb423a53,CVE-2023-0217,libcrypto3,openssl: NULL dereference validating DSA public key,3.0.7-r2,null,HIGH
+sha256:815055a58d1a9da36d5c582486a6596207f595225c61b89132fef4cfbb423a53,CVE-2023-0286,libcrypto3,X.400 address type confusion in X.509 GeneralName,3.0.7-r2,null,HIGH
+sha256:815055a58d1a9da36d5c582486a6596207f595225c61b89132fef4cfbb423a53,CVE-2023-0401,libcrypto3,openssl: NULL dereference during PKCS7 data verification,3.0.7-r2,null,HIGH
+sha256:815055a58d1a9da36d5c582486a6596207f595225c61b89132fef4cfbb423a53,CVE-2023-0464,libcrypto3,Denial of service by excessive resource usage in verifying X509 policy constraints,3.0.7-r2,null,HIGH
+sha256:815055a58d1a9da36d5c582486a6596207f595225c61b89132fef4cfbb423a53,CVE-2022-4203,libcrypto3,openssl: read buffer overflow in X.509 certificate verification,3.0.7-r2,null,MEDIUM
+sha256:815055a58d1a9da36d5c582486a6596207f595225c61b89132fef4cfbb423a53,CVE-2022-4304,libcrypto3,timing attack in RSA Decryption implementation,3.0.7-r2,null,MEDIUM
+sha256:815055a58d1a9da36d5c582486a6596207f595225c61b89132fef4cfbb423a53,CVE-2023-0465,libcrypto3,Invalid certificate policies in leaf certificates are silently ignored,3.0.7-r2,null,MEDIUM
+sha256:815055a58d1a9da36d5c582486a6596207f595225c61b89132fef4cfbb423a53,CVE-2023-0466,libcrypto3,Certificate policy check not enabled,3.0.7-r2,null,MEDIUM
+sha256:815055a58d1a9da36d5c582486a6596207f595225c61b89132fef4cfbb423a53,CVE-2023-1255,libcrypto3,Input buffer over-read in AES-XTS implementation on 64 bit ARM,3.0.7-r2,null,MEDIUM
+sha256:815055a58d1a9da36d5c582486a6596207f595225c61b89132fef4cfbb423a53,CVE-2022-4450,libssl3,double free after calling PEM_read_bio_ex,3.0.7-r2,null,HIGH
+sha256:815055a58d1a9da36d5c582486a6596207f595225c61b89132fef4cfbb423a53,CVE-2023-0215,libssl3,use-after-free following BIO_new_NDEF,3.0.7-r2,null,HIGH
+sha256:815055a58d1a9da36d5c582486a6596207f595225c61b89132fef4cfbb423a53,CVE-2023-0216,libssl3,openssl: invalid pointer dereference in d2i_PKCS7 functions,3.0.7-r2,null,HIGH
+sha256:815055a58d1a9da36d5c582486a6596207f595225c61b89132fef4cfbb423a53,CVE-2023-0217,libssl3,openssl: NULL dereference validating DSA public key,3.0.7-r2,null,HIGH
+sha256:815055a58d1a9da36d5c582486a6596207f595225c61b89132fef4cfbb423a53,CVE-2023-0286,libssl3,X.400 address type confusion in X.509 GeneralName,3.0.7-r2,null,HIGH
+sha256:815055a58d1a9da36d5c582486a6596207f595225c61b89132fef4cfbb423a53,CVE-2023-0401,libssl3,openssl: NULL dereference during PKCS7 data verification,3.0.7-r2,null,HIGH
+sha256:815055a58d1a9da36d5c582486a6596207f595225c61b89132fef4cfbb423a53,CVE-2023-0464,libssl3,Denial of service by excessive resource usage in verifying X509 policy constraints,3.0.7-r2,null,HIGH
+sha256:815055a58d1a9da36d5c582486a6596207f595225c61b89132fef4cfbb423a53,CVE-2022-4203,libssl3,openssl: read buffer overflow in X.509 certificate verification,3.0.7-r2,null,MEDIUM
+sha256:815055a58d1a9da36d5c582486a6596207f595225c61b89132fef4cfbb423a53,CVE-2022-4304,libssl3,timing attack in RSA Decryption implementation,3.0.7-r2,null,MEDIUM
+sha256:815055a58d1a9da36d5c582486a6596207f595225c61b89132fef4cfbb423a53,CVE-2023-0465,libssl3,Invalid certificate policies in leaf certificates are silently ignored,3.0.7-r2,null,MEDIUM
+sha256:815055a58d1a9da36d5c582486a6596207f595225c61b89132fef4cfbb423a53,CVE-2023-0466,libssl3,Certificate policy check not enabled,3.0.7-r2,null,MEDIUM
+sha256:815055a58d1a9da36d5c582486a6596207f595225c61b89132fef4cfbb423a53,CVE-2023-1255,libssl3,Input buffer over-read in AES-XTS implementation on 64 bit ARM,3.0.7-r2,null,MEDIUM

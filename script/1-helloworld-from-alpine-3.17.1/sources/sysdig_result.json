@@ -1,0 +1,1781 @@
+{
+  "metadata": {
+    "type": "dockerImage",
+    "imageID": "sha256:815055a58d1a9da36d5c582486a6596207f595225c61b89132fef4cfbb423a53",
+    "digest": "",
+    "baseOS": "alpine 3.17.1",
+    "pullString": "myimage"
+  },
+  "vulnerabilities": {
+    "total": 22,
+    "fixable": 22,
+    "bySeverity": [
+      {
+        "severity": {
+          "value": 0,
+          "label": "Critical"
+        },
+        "total": 0
+      },
+      {
+        "severity": {
+          "value": 1,
+          "label": "High"
+        },
+        "total": 14,
+        "fixable": 14
+      },
+      {
+        "severity": {
+          "value": 2,
+          "label": "Medium"
+        },
+        "total": 8,
+        "fixable": 8
+      },
+      {
+        "severity": {
+          "value": 3,
+          "label": "Low"
+        },
+        "total": 0
+      },
+      {
+        "severity": {
+          "value": 4,
+          "label": "Negligible"
+        },
+        "total": 0
+      }
+    ],
+    "list": [
+      {
+        "name": "CVE-2022-4450",
+        "severity": {
+          "value": 1,
+          "label": "High",
+          "sourceName": "nvd",
+          "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2022-4450"
+        },
+        "originalSeverity": "",
+        "cvssScore": {
+          "value": {
+            "version": "3.1",
+            "score": 7.5,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+          },
+          "sourceName": "nvd",
+          "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2022-4450"
+        },
+        "disclosureDate": "2023-01-30T00:00:00Z",
+        "solutionDate": "2023-02-07T00:00:00Z",
+        "exploitable": false,
+        "exploit": null,
+        "affectedPackages": [
+          "libcrypto3",
+          "libssl3"
+        ]
+      },
+      {
+        "name": "CVE-2023-0215",
+        "severity": {
+          "value": 1,
+          "label": "High",
+          "sourceName": "nvd",
+          "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2023-0215"
+        },
+        "originalSeverity": "",
+        "cvssScore": {
+          "value": {
+            "version": "3.1",
+            "score": 7.5,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+          },
+          "sourceName": "nvd",
+          "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2023-0215"
+        },
+        "disclosureDate": "2023-02-07T00:00:00Z",
+        "solutionDate": "2023-02-07T00:00:00Z",
+        "exploitable": false,
+        "exploit": null,
+        "affectedPackages": [
+          "libcrypto3",
+          "libssl3"
+        ]
+      },
+      {
+        "name": "CVE-2023-0216",
+        "severity": {
+          "value": 1,
+          "label": "High",
+          "sourceName": "nvd",
+          "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2023-0216"
+        },
+        "originalSeverity": "",
+        "cvssScore": {
+          "value": {
+            "version": "3.1",
+            "score": 7.5,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+          },
+          "sourceName": "nvd",
+          "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2023-0216"
+        },
+        "disclosureDate": "2023-02-07T00:00:00Z",
+        "solutionDate": "2023-02-07T00:00:00Z",
+        "exploitable": false,
+        "exploit": null,
+        "affectedPackages": [
+          "libcrypto3",
+          "libssl3"
+        ]
+      },
+      {
+        "name": "CVE-2023-0217",
+        "severity": {
+          "value": 1,
+          "label": "High",
+          "sourceName": "nvd",
+          "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2023-0217"
+        },
+        "originalSeverity": "",
+        "cvssScore": {
+          "value": {
+            "version": "3.1",
+            "score": 7.5,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+          },
+          "sourceName": "nvd",
+          "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2023-0217"
+        },
+        "disclosureDate": "2023-02-07T00:00:00Z",
+        "solutionDate": "2023-02-07T00:00:00Z",
+        "exploitable": false,
+        "exploit": null,
+        "affectedPackages": [
+          "libcrypto3",
+          "libssl3"
+        ]
+      },
+      {
+        "name": "CVE-2023-0286",
+        "severity": {
+          "value": 1,
+          "label": "High",
+          "sourceName": "nvd",
+          "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2023-0286"
+        },
+        "originalSeverity": "",
+        "cvssScore": {
+          "value": {
+            "version": "3.1",
+            "score": 7.4,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:H"
+          },
+          "sourceName": "nvd",
+          "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2023-0286"
+        },
+        "disclosureDate": "2023-02-07T00:00:00Z",
+        "solutionDate": "2023-02-07T00:00:00Z",
+        "exploitable": false,
+        "exploit": null,
+        "affectedPackages": [
+          "libcrypto3",
+          "libssl3"
+        ]
+      },
+      {
+        "name": "CVE-2023-0401",
+        "severity": {
+          "value": 1,
+          "label": "High",
+          "sourceName": "nvd",
+          "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2023-0401"
+        },
+        "originalSeverity": "",
+        "cvssScore": {
+          "value": {
+            "version": "3.1",
+            "score": 7.5,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+          },
+          "sourceName": "nvd",
+          "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2023-0401"
+        },
+        "disclosureDate": "2023-02-07T00:00:00Z",
+        "solutionDate": "2023-02-07T00:00:00Z",
+        "exploitable": false,
+        "exploit": null,
+        "affectedPackages": [
+          "libcrypto3",
+          "libssl3"
+        ]
+      },
+      {
+        "name": "CVE-2023-0464",
+        "severity": {
+          "value": 1,
+          "label": "High",
+          "sourceName": "nvd",
+          "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2023-0464"
+        },
+        "originalSeverity": "",
+        "cvssScore": {
+          "value": {
+            "version": "3.1",
+            "score": 7.5,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+          },
+          "sourceName": "nvd",
+          "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2023-0464"
+        },
+        "disclosureDate": "2023-03-22T00:00:00Z",
+        "solutionDate": null,
+        "exploitable": false,
+        "exploit": null,
+        "affectedPackages": [
+          "libcrypto3",
+          "libssl3"
+        ]
+      },
+      {
+        "name": "CVE-2022-4203",
+        "severity": {
+          "value": 2,
+          "label": "Medium",
+          "sourceName": "nvd",
+          "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2022-4203"
+        },
+        "originalSeverity": "",
+        "cvssScore": {
+          "value": {
+            "version": "3.1",
+            "score": 4.9,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H"
+          },
+          "sourceName": "nvd",
+          "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2022-4203"
+        },
+        "disclosureDate": "2023-02-07T00:00:00Z",
+        "solutionDate": "2023-02-07T00:00:00Z",
+        "exploitable": false,
+        "exploit": null,
+        "affectedPackages": [
+          "libcrypto3",
+          "libssl3"
+        ]
+      },
+      {
+        "name": "CVE-2022-4304",
+        "severity": {
+          "value": 2,
+          "label": "Medium",
+          "sourceName": "nvd",
+          "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2022-4304"
+        },
+        "originalSeverity": "",
+        "cvssScore": {
+          "value": {
+            "version": "3.1",
+            "score": 5.9,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N"
+          },
+          "sourceName": "nvd",
+          "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2022-4304"
+        },
+        "disclosureDate": "2023-02-07T00:00:00Z",
+        "solutionDate": "2023-02-07T00:00:00Z",
+        "exploitable": false,
+        "exploit": null,
+        "affectedPackages": [
+          "libcrypto3",
+          "libssl3"
+        ]
+      },
+      {
+        "name": "CVE-2023-0465",
+        "severity": {
+          "value": 2,
+          "label": "Medium",
+          "sourceName": "nvd",
+          "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2023-0465"
+        },
+        "originalSeverity": "",
+        "cvssScore": {
+          "value": {
+            "version": "3.1",
+            "score": 5.3,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N"
+          },
+          "sourceName": "nvd",
+          "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2023-0465"
+        },
+        "disclosureDate": "2023-03-28T00:00:00Z",
+        "solutionDate": "2023-03-28T00:00:00Z",
+        "exploitable": false,
+        "exploit": null,
+        "affectedPackages": [
+          "libcrypto3",
+          "libssl3"
+        ]
+      },
+      {
+        "name": "CVE-2023-0466",
+        "severity": {
+          "value": 2,
+          "label": "Medium",
+          "sourceName": "nvd",
+          "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2023-0466"
+        },
+        "originalSeverity": "",
+        "cvssScore": {
+          "value": {
+            "version": "3.1",
+            "score": 5.3,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N"
+          },
+          "sourceName": "nvd",
+          "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2023-0466"
+        },
+        "disclosureDate": "2023-03-28T00:00:00Z",
+        "solutionDate": "2023-03-28T00:00:00Z",
+        "exploitable": false,
+        "exploit": null,
+        "affectedPackages": [
+          "libcrypto3",
+          "libssl3"
+        ]
+      }
+    ]
+  },
+  "packages": {
+    "total": 15,
+    "list": [
+      {
+        "type": "os",
+        "name": "libcrypto3",
+        "version": "3.0.7-r2",
+        "suggestedFix": "3.0.8-r0",
+        "packagePath": null,
+        "vulnsBySeverity": [
+          {
+            "severity": {
+              "value": 0,
+              "label": "Critical"
+            },
+            "total": 0
+          },
+          {
+            "severity": {
+              "value": 1,
+              "label": "High"
+            },
+            "total": 7
+          },
+          {
+            "severity": {
+              "value": 2,
+              "label": "Medium"
+            },
+            "total": 4
+          },
+          {
+            "severity": {
+              "value": 3,
+              "label": "Low"
+            },
+            "total": 0
+          },
+          {
+            "severity": {
+              "value": 4,
+              "label": "Negligible"
+            },
+            "total": 0
+          }
+        ],
+        "vulnerabilities": [
+          {
+            "name": "CVE-2023-0465",
+            "severity": {
+              "value": 2,
+              "label": "Medium",
+              "sourceName": "nvd",
+              "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2023-0465"
+            },
+            "originalSeverity": "",
+            "cvssScore": {
+              "value": {
+                "version": "3.1",
+                "score": 5.3,
+                "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N"
+              },
+              "sourceName": "nvd",
+              "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2023-0465"
+            },
+            "disclosureDate": "2023-03-28T00:00:00Z",
+            "solutionDate": "2023-03-28T00:00:00Z",
+            "exploitable": false,
+            "exploit": null
+          },
+          {
+            "name": "CVE-2022-4203",
+            "severity": {
+              "value": 2,
+              "label": "Medium",
+              "sourceName": "nvd",
+              "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2022-4203"
+            },
+            "originalSeverity": "",
+            "cvssScore": {
+              "value": {
+                "version": "3.1",
+                "score": 4.9,
+                "vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H"
+              },
+              "sourceName": "nvd",
+              "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2022-4203"
+            },
+            "disclosureDate": "2023-02-07T00:00:00Z",
+            "solutionDate": "2023-02-07T00:00:00Z",
+            "exploitable": false,
+            "exploit": null
+          },
+          {
+            "name": "CVE-2022-4304",
+            "severity": {
+              "value": 2,
+              "label": "Medium",
+              "sourceName": "nvd",
+              "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2022-4304"
+            },
+            "originalSeverity": "",
+            "cvssScore": {
+              "value": {
+                "version": "3.1",
+                "score": 5.9,
+                "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N"
+              },
+              "sourceName": "nvd",
+              "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2022-4304"
+            },
+            "disclosureDate": "2023-02-07T00:00:00Z",
+            "solutionDate": "2023-02-07T00:00:00Z",
+            "exploitable": false,
+            "exploit": null
+          },
+          {
+            "name": "CVE-2022-4450",
+            "severity": {
+              "value": 1,
+              "label": "High",
+              "sourceName": "nvd",
+              "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2022-4450"
+            },
+            "originalSeverity": "",
+            "cvssScore": {
+              "value": {
+                "version": "3.1",
+                "score": 7.5,
+                "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+              },
+              "sourceName": "nvd",
+              "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2022-4450"
+            },
+            "disclosureDate": "2023-01-30T00:00:00Z",
+            "solutionDate": "2023-02-07T00:00:00Z",
+            "exploitable": false,
+            "exploit": null
+          },
+          {
+            "name": "CVE-2023-0215",
+            "severity": {
+              "value": 1,
+              "label": "High",
+              "sourceName": "nvd",
+              "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2023-0215"
+            },
+            "originalSeverity": "",
+            "cvssScore": {
+              "value": {
+                "version": "3.1",
+                "score": 7.5,
+                "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+              },
+              "sourceName": "nvd",
+              "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2023-0215"
+            },
+            "disclosureDate": "2023-02-07T00:00:00Z",
+            "solutionDate": "2023-02-07T00:00:00Z",
+            "exploitable": false,
+            "exploit": null
+          },
+          {
+            "name": "CVE-2023-0216",
+            "severity": {
+              "value": 1,
+              "label": "High",
+              "sourceName": "nvd",
+              "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2023-0216"
+            },
+            "originalSeverity": "",
+            "cvssScore": {
+              "value": {
+                "version": "3.1",
+                "score": 7.5,
+                "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+              },
+              "sourceName": "nvd",
+              "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2023-0216"
+            },
+            "disclosureDate": "2023-02-07T00:00:00Z",
+            "solutionDate": "2023-02-07T00:00:00Z",
+            "exploitable": false,
+            "exploit": null
+          },
+          {
+            "name": "CVE-2023-0217",
+            "severity": {
+              "value": 1,
+              "label": "High",
+              "sourceName": "nvd",
+              "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2023-0217"
+            },
+            "originalSeverity": "",
+            "cvssScore": {
+              "value": {
+                "version": "3.1",
+                "score": 7.5,
+                "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+              },
+              "sourceName": "nvd",
+              "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2023-0217"
+            },
+            "disclosureDate": "2023-02-07T00:00:00Z",
+            "solutionDate": "2023-02-07T00:00:00Z",
+            "exploitable": false,
+            "exploit": null
+          },
+          {
+            "name": "CVE-2023-0286",
+            "severity": {
+              "value": 1,
+              "label": "High",
+              "sourceName": "nvd",
+              "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2023-0286"
+            },
+            "originalSeverity": "",
+            "cvssScore": {
+              "value": {
+                "version": "3.1",
+                "score": 7.4,
+                "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:H"
+              },
+              "sourceName": "nvd",
+              "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2023-0286"
+            },
+            "disclosureDate": "2023-02-07T00:00:00Z",
+            "solutionDate": "2023-02-07T00:00:00Z",
+            "exploitable": false,
+            "exploit": null
+          },
+          {
+            "name": "CVE-2023-0401",
+            "severity": {
+              "value": 1,
+              "label": "High",
+              "sourceName": "nvd",
+              "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2023-0401"
+            },
+            "originalSeverity": "",
+            "cvssScore": {
+              "value": {
+                "version": "3.1",
+                "score": 7.5,
+                "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+              },
+              "sourceName": "nvd",
+              "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2023-0401"
+            },
+            "disclosureDate": "2023-02-07T00:00:00Z",
+            "solutionDate": "2023-02-07T00:00:00Z",
+            "exploitable": false,
+            "exploit": null
+          },
+          {
+            "name": "CVE-2023-0464",
+            "severity": {
+              "value": 1,
+              "label": "High",
+              "sourceName": "nvd",
+              "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2023-0464"
+            },
+            "originalSeverity": "",
+            "cvssScore": {
+              "value": {
+                "version": "3.1",
+                "score": 7.5,
+                "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+              },
+              "sourceName": "nvd",
+              "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2023-0464"
+            },
+            "disclosureDate": "2023-03-22T00:00:00Z",
+            "solutionDate": null,
+            "exploitable": false,
+            "exploit": null
+          },
+          {
+            "name": "CVE-2023-0466",
+            "severity": {
+              "value": 2,
+              "label": "Medium",
+              "sourceName": "nvd",
+              "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2023-0466"
+            },
+            "originalSeverity": "",
+            "cvssScore": {
+              "value": {
+                "version": "3.1",
+                "score": 5.3,
+                "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N"
+              },
+              "sourceName": "nvd",
+              "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2023-0466"
+            },
+            "disclosureDate": "2023-03-28T00:00:00Z",
+            "solutionDate": "2023-03-28T00:00:00Z",
+            "exploitable": false,
+            "exploit": null
+          }
+        ],
+        "exploitCount": 0
+      },
+      {
+        "type": "os",
+        "name": "libssl3",
+        "version": "3.0.7-r2",
+        "suggestedFix": "3.0.8-r0",
+        "packagePath": null,
+        "vulnsBySeverity": [
+          {
+            "severity": {
+              "value": 0,
+              "label": "Critical"
+            },
+            "total": 0
+          },
+          {
+            "severity": {
+              "value": 1,
+              "label": "High"
+            },
+            "total": 7
+          },
+          {
+            "severity": {
+              "value": 2,
+              "label": "Medium"
+            },
+            "total": 4
+          },
+          {
+            "severity": {
+              "value": 3,
+              "label": "Low"
+            },
+            "total": 0
+          },
+          {
+            "severity": {
+              "value": 4,
+              "label": "Negligible"
+            },
+            "total": 0
+          }
+        ],
+        "vulnerabilities": [
+          {
+            "name": "CVE-2023-0466",
+            "severity": {
+              "value": 2,
+              "label": "Medium",
+              "sourceName": "nvd",
+              "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2023-0466"
+            },
+            "originalSeverity": "",
+            "cvssScore": {
+              "value": {
+                "version": "3.1",
+                "score": 5.3,
+                "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N"
+              },
+              "sourceName": "nvd",
+              "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2023-0466"
+            },
+            "disclosureDate": "2023-03-28T00:00:00Z",
+            "solutionDate": "2023-03-28T00:00:00Z",
+            "exploitable": false,
+            "exploit": null
+          },
+          {
+            "name": "CVE-2022-4203",
+            "severity": {
+              "value": 2,
+              "label": "Medium",
+              "sourceName": "nvd",
+              "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2022-4203"
+            },
+            "originalSeverity": "",
+            "cvssScore": {
+              "value": {
+                "version": "3.1",
+                "score": 4.9,
+                "vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H"
+              },
+              "sourceName": "nvd",
+              "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2022-4203"
+            },
+            "disclosureDate": "2023-02-07T00:00:00Z",
+            "solutionDate": "2023-02-07T00:00:00Z",
+            "exploitable": false,
+            "exploit": null
+          },
+          {
+            "name": "CVE-2022-4304",
+            "severity": {
+              "value": 2,
+              "label": "Medium",
+              "sourceName": "nvd",
+              "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2022-4304"
+            },
+            "originalSeverity": "",
+            "cvssScore": {
+              "value": {
+                "version": "3.1",
+                "score": 5.9,
+                "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N"
+              },
+              "sourceName": "nvd",
+              "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2022-4304"
+            },
+            "disclosureDate": "2023-02-07T00:00:00Z",
+            "solutionDate": "2023-02-07T00:00:00Z",
+            "exploitable": false,
+            "exploit": null
+          },
+          {
+            "name": "CVE-2022-4450",
+            "severity": {
+              "value": 1,
+              "label": "High",
+              "sourceName": "nvd",
+              "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2022-4450"
+            },
+            "originalSeverity": "",
+            "cvssScore": {
+              "value": {
+                "version": "3.1",
+                "score": 7.5,
+                "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+              },
+              "sourceName": "nvd",
+              "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2022-4450"
+            },
+            "disclosureDate": "2023-01-30T00:00:00Z",
+            "solutionDate": "2023-02-07T00:00:00Z",
+            "exploitable": false,
+            "exploit": null
+          },
+          {
+            "name": "CVE-2023-0215",
+            "severity": {
+              "value": 1,
+              "label": "High",
+              "sourceName": "nvd",
+              "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2023-0215"
+            },
+            "originalSeverity": "",
+            "cvssScore": {
+              "value": {
+                "version": "3.1",
+                "score": 7.5,
+                "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+              },
+              "sourceName": "nvd",
+              "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2023-0215"
+            },
+            "disclosureDate": "2023-02-07T00:00:00Z",
+            "solutionDate": "2023-02-07T00:00:00Z",
+            "exploitable": false,
+            "exploit": null
+          },
+          {
+            "name": "CVE-2023-0216",
+            "severity": {
+              "value": 1,
+              "label": "High",
+              "sourceName": "nvd",
+              "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2023-0216"
+            },
+            "originalSeverity": "",
+            "cvssScore": {
+              "value": {
+                "version": "3.1",
+                "score": 7.5,
+                "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+              },
+              "sourceName": "nvd",
+              "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2023-0216"
+            },
+            "disclosureDate": "2023-02-07T00:00:00Z",
+            "solutionDate": "2023-02-07T00:00:00Z",
+            "exploitable": false,
+            "exploit": null
+          },
+          {
+            "name": "CVE-2023-0217",
+            "severity": {
+              "value": 1,
+              "label": "High",
+              "sourceName": "nvd",
+              "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2023-0217"
+            },
+            "originalSeverity": "",
+            "cvssScore": {
+              "value": {
+                "version": "3.1",
+                "score": 7.5,
+                "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+              },
+              "sourceName": "nvd",
+              "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2023-0217"
+            },
+            "disclosureDate": "2023-02-07T00:00:00Z",
+            "solutionDate": "2023-02-07T00:00:00Z",
+            "exploitable": false,
+            "exploit": null
+          },
+          {
+            "name": "CVE-2023-0286",
+            "severity": {
+              "value": 1,
+              "label": "High",
+              "sourceName": "nvd",
+              "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2023-0286"
+            },
+            "originalSeverity": "",
+            "cvssScore": {
+              "value": {
+                "version": "3.1",
+                "score": 7.4,
+                "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:H"
+              },
+              "sourceName": "nvd",
+              "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2023-0286"
+            },
+            "disclosureDate": "2023-02-07T00:00:00Z",
+            "solutionDate": "2023-02-07T00:00:00Z",
+            "exploitable": false,
+            "exploit": null
+          },
+          {
+            "name": "CVE-2023-0401",
+            "severity": {
+              "value": 1,
+              "label": "High",
+              "sourceName": "nvd",
+              "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2023-0401"
+            },
+            "originalSeverity": "",
+            "cvssScore": {
+              "value": {
+                "version": "3.1",
+                "score": 7.5,
+                "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+              },
+              "sourceName": "nvd",
+              "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2023-0401"
+            },
+            "disclosureDate": "2023-02-07T00:00:00Z",
+            "solutionDate": "2023-02-07T00:00:00Z",
+            "exploitable": false,
+            "exploit": null
+          },
+          {
+            "name": "CVE-2023-0464",
+            "severity": {
+              "value": 1,
+              "label": "High",
+              "sourceName": "nvd",
+              "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2023-0464"
+            },
+            "originalSeverity": "",
+            "cvssScore": {
+              "value": {
+                "version": "3.1",
+                "score": 7.5,
+                "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+              },
+              "sourceName": "nvd",
+              "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2023-0464"
+            },
+            "disclosureDate": "2023-03-22T00:00:00Z",
+            "solutionDate": null,
+            "exploitable": false,
+            "exploit": null
+          },
+          {
+            "name": "CVE-2023-0465",
+            "severity": {
+              "value": 2,
+              "label": "Medium",
+              "sourceName": "nvd",
+              "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2023-0465"
+            },
+            "originalSeverity": "",
+            "cvssScore": {
+              "value": {
+                "version": "3.1",
+                "score": 5.3,
+                "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N"
+              },
+              "sourceName": "nvd",
+              "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2023-0465"
+            },
+            "disclosureDate": "2023-03-28T00:00:00Z",
+            "solutionDate": "2023-03-28T00:00:00Z",
+            "exploitable": false,
+            "exploit": null
+          }
+        ],
+        "exploitCount": 0
+      },
+      {
+        "type": "os",
+        "name": "alpine-baselayout",
+        "version": "3.4.0-r0",
+        "suggestedFix": null,
+        "packagePath": null,
+        "vulnsBySeverity": [
+          {
+            "severity": {
+              "value": 0,
+              "label": "Critical"
+            },
+            "total": 0
+          },
+          {
+            "severity": {
+              "value": 1,
+              "label": "High"
+            },
+            "total": 0
+          },
+          {
+            "severity": {
+              "value": 2,
+              "label": "Medium"
+            },
+            "total": 0
+          },
+          {
+            "severity": {
+              "value": 3,
+              "label": "Low"
+            },
+            "total": 0
+          },
+          {
+            "severity": {
+              "value": 4,
+              "label": "Negligible"
+            },
+            "total": 0
+          }
+        ],
+        "vulnerabilities": [],
+        "exploitCount": 0
+      },
+      {
+        "type": "os",
+        "name": "alpine-baselayout-data",
+        "version": "3.4.0-r0",
+        "suggestedFix": null,
+        "packagePath": null,
+        "vulnsBySeverity": [
+          {
+            "severity": {
+              "value": 0,
+              "label": "Critical"
+            },
+            "total": 0
+          },
+          {
+            "severity": {
+              "value": 1,
+              "label": "High"
+            },
+            "total": 0
+          },
+          {
+            "severity": {
+              "value": 2,
+              "label": "Medium"
+            },
+            "total": 0
+          },
+          {
+            "severity": {
+              "value": 3,
+              "label": "Low"
+            },
+            "total": 0
+          },
+          {
+            "severity": {
+              "value": 4,
+              "label": "Negligible"
+            },
+            "total": 0
+          }
+        ],
+        "vulnerabilities": [],
+        "exploitCount": 0
+      },
+      {
+        "type": "os",
+        "name": "alpine-keys",
+        "version": "2.4-r1",
+        "suggestedFix": null,
+        "packagePath": null,
+        "vulnsBySeverity": [
+          {
+            "severity": {
+              "value": 0,
+              "label": "Critical"
+            },
+            "total": 0
+          },
+          {
+            "severity": {
+              "value": 1,
+              "label": "High"
+            },
+            "total": 0
+          },
+          {
+            "severity": {
+              "value": 2,
+              "label": "Medium"
+            },
+            "total": 0
+          },
+          {
+            "severity": {
+              "value": 3,
+              "label": "Low"
+            },
+            "total": 0
+          },
+          {
+            "severity": {
+              "value": 4,
+              "label": "Negligible"
+            },
+            "total": 0
+          }
+        ],
+        "vulnerabilities": [],
+        "exploitCount": 0
+      },
+      {
+        "type": "os",
+        "name": "apk-tools",
+        "version": "2.12.10-r1",
+        "suggestedFix": null,
+        "packagePath": null,
+        "vulnsBySeverity": [
+          {
+            "severity": {
+              "value": 0,
+              "label": "Critical"
+            },
+            "total": 0
+          },
+          {
+            "severity": {
+              "value": 1,
+              "label": "High"
+            },
+            "total": 0
+          },
+          {
+            "severity": {
+              "value": 2,
+              "label": "Medium"
+            },
+            "total": 0
+          },
+          {
+            "severity": {
+              "value": 3,
+              "label": "Low"
+            },
+            "total": 0
+          },
+          {
+            "severity": {
+              "value": 4,
+              "label": "Negligible"
+            },
+            "total": 0
+          }
+        ],
+        "vulnerabilities": [],
+        "exploitCount": 0
+      },
+      {
+        "type": "os",
+        "name": "busybox",
+        "version": "1.35.0-r29",
+        "suggestedFix": null,
+        "packagePath": null,
+        "vulnsBySeverity": [
+          {
+            "severity": {
+              "value": 0,
+              "label": "Critical"
+            },
+            "total": 0
+          },
+          {
+            "severity": {
+              "value": 1,
+              "label": "High"
+            },
+            "total": 0
+          },
+          {
+            "severity": {
+              "value": 2,
+              "label": "Medium"
+            },
+            "total": 0
+          },
+          {
+            "severity": {
+              "value": 3,
+              "label": "Low"
+            },
+            "total": 0
+          },
+          {
+            "severity": {
+              "value": 4,
+              "label": "Negligible"
+            },
+            "total": 0
+          }
+        ],
+        "vulnerabilities": [],
+        "exploitCount": 0
+      },
+      {
+        "type": "os",
+        "name": "busybox-binsh",
+        "version": "1.35.0-r29",
+        "suggestedFix": null,
+        "packagePath": null,
+        "vulnsBySeverity": [
+          {
+            "severity": {
+              "value": 0,
+              "label": "Critical"
+            },
+            "total": 0
+          },
+          {
+            "severity": {
+              "value": 1,
+              "label": "High"
+            },
+            "total": 0
+          },
+          {
+            "severity": {
+              "value": 2,
+              "label": "Medium"
+            },
+            "total": 0
+          },
+          {
+            "severity": {
+              "value": 3,
+              "label": "Low"
+            },
+            "total": 0
+          },
+          {
+            "severity": {
+              "value": 4,
+              "label": "Negligible"
+            },
+            "total": 0
+          }
+        ],
+        "vulnerabilities": [],
+        "exploitCount": 0
+      },
+      {
+        "type": "os",
+        "name": "ca-certificates-bundle",
+        "version": "20220614-r4",
+        "suggestedFix": null,
+        "packagePath": null,
+        "vulnsBySeverity": [
+          {
+            "severity": {
+              "value": 0,
+              "label": "Critical"
+            },
+            "total": 0
+          },
+          {
+            "severity": {
+              "value": 1,
+              "label": "High"
+            },
+            "total": 0
+          },
+          {
+            "severity": {
+              "value": 2,
+              "label": "Medium"
+            },
+            "total": 0
+          },
+          {
+            "severity": {
+              "value": 3,
+              "label": "Low"
+            },
+            "total": 0
+          },
+          {
+            "severity": {
+              "value": 4,
+              "label": "Negligible"
+            },
+            "total": 0
+          }
+        ],
+        "vulnerabilities": [],
+        "exploitCount": 0
+      },
+      {
+        "type": "os",
+        "name": "libc-utils",
+        "version": "0.7.2-r3",
+        "suggestedFix": null,
+        "packagePath": null,
+        "vulnsBySeverity": [
+          {
+            "severity": {
+              "value": 0,
+              "label": "Critical"
+            },
+            "total": 0
+          },
+          {
+            "severity": {
+              "value": 1,
+              "label": "High"
+            },
+            "total": 0
+          },
+          {
+            "severity": {
+              "value": 2,
+              "label": "Medium"
+            },
+            "total": 0
+          },
+          {
+            "severity": {
+              "value": 3,
+              "label": "Low"
+            },
+            "total": 0
+          },
+          {
+            "severity": {
+              "value": 4,
+              "label": "Negligible"
+            },
+            "total": 0
+          }
+        ],
+        "vulnerabilities": [],
+        "exploitCount": 0
+      },
+      {
+        "type": "os",
+        "name": "musl",
+        "version": "1.2.3-r4",
+        "suggestedFix": null,
+        "packagePath": null,
+        "vulnsBySeverity": [
+          {
+            "severity": {
+              "value": 0,
+              "label": "Critical"
+            },
+            "total": 0
+          },
+          {
+            "severity": {
+              "value": 1,
+              "label": "High"
+            },
+            "total": 0
+          },
+          {
+            "severity": {
+              "value": 2,
+              "label": "Medium"
+            },
+            "total": 0
+          },
+          {
+            "severity": {
+              "value": 3,
+              "label": "Low"
+            },
+            "total": 0
+          },
+          {
+            "severity": {
+              "value": 4,
+              "label": "Negligible"
+            },
+            "total": 0
+          }
+        ],
+        "vulnerabilities": [],
+        "exploitCount": 0
+      },
+      {
+        "type": "os",
+        "name": "musl-utils",
+        "version": "1.2.3-r4",
+        "suggestedFix": null,
+        "packagePath": null,
+        "vulnsBySeverity": [
+          {
+            "severity": {
+              "value": 0,
+              "label": "Critical"
+            },
+            "total": 0
+          },
+          {
+            "severity": {
+              "value": 1,
+              "label": "High"
+            },
+            "total": 0
+          },
+          {
+            "severity": {
+              "value": 2,
+              "label": "Medium"
+            },
+            "total": 0
+          },
+          {
+            "severity": {
+              "value": 3,
+              "label": "Low"
+            },
+            "total": 0
+          },
+          {
+            "severity": {
+              "value": 4,
+              "label": "Negligible"
+            },
+            "total": 0
+          }
+        ],
+        "vulnerabilities": [],
+        "exploitCount": 0
+      },
+      {
+        "type": "os",
+        "name": "scanelf",
+        "version": "1.3.5-r1",
+        "suggestedFix": null,
+        "packagePath": null,
+        "vulnsBySeverity": [
+          {
+            "severity": {
+              "value": 0,
+              "label": "Critical"
+            },
+            "total": 0
+          },
+          {
+            "severity": {
+              "value": 1,
+              "label": "High"
+            },
+            "total": 0
+          },
+          {
+            "severity": {
+              "value": 2,
+              "label": "Medium"
+            },
+            "total": 0
+          },
+          {
+            "severity": {
+              "value": 3,
+              "label": "Low"
+            },
+            "total": 0
+          },
+          {
+            "severity": {
+              "value": 4,
+              "label": "Negligible"
+            },
+            "total": 0
+          }
+        ],
+        "vulnerabilities": [],
+        "exploitCount": 0
+      },
+      {
+        "type": "os",
+        "name": "ssl_client",
+        "version": "1.35.0-r29",
+        "suggestedFix": null,
+        "packagePath": null,
+        "vulnsBySeverity": [
+          {
+            "severity": {
+              "value": 0,
+              "label": "Critical"
+            },
+            "total": 0
+          },
+          {
+            "severity": {
+              "value": 1,
+              "label": "High"
+            },
+            "total": 0
+          },
+          {
+            "severity": {
+              "value": 2,
+              "label": "Medium"
+            },
+            "total": 0
+          },
+          {
+            "severity": {
+              "value": 3,
+              "label": "Low"
+            },
+            "total": 0
+          },
+          {
+            "severity": {
+              "value": 4,
+              "label": "Negligible"
+            },
+            "total": 0
+          }
+        ],
+        "vulnerabilities": [],
+        "exploitCount": 0
+      },
+      {
+        "type": "os",
+        "name": "zlib",
+        "version": "1.2.13-r0",
+        "suggestedFix": null,
+        "packagePath": null,
+        "vulnsBySeverity": [
+          {
+            "severity": {
+              "value": 0,
+              "label": "Critical"
+            },
+            "total": 0
+          },
+          {
+            "severity": {
+              "value": 1,
+              "label": "High"
+            },
+            "total": 0
+          },
+          {
+            "severity": {
+              "value": 2,
+              "label": "Medium"
+            },
+            "total": 0
+          },
+          {
+            "severity": {
+              "value": 3,
+              "label": "Low"
+            },
+            "total": 0
+          },
+          {
+            "severity": {
+              "value": 4,
+              "label": "Negligible"
+            },
+            "total": 0
+          }
+        ],
+        "vulnerabilities": [],
+        "exploitCount": 0
+      }
+    ]
+  },
+  "policies": {
+    "total": 1,
+    "list": [
+      {
+        "name": "Sysdig Best Practices",
+        "type": "alwaysApply",
+        "bundle": [
+          {
+            "name": "Severe vulnerabilities with a Fix",
+            "type": "predefined",
+            "rules": [
+              {
+                "predicates": [
+                  {
+                    "type": "vulnSeverityEquals",
+                    "extra": {
+                      "level": "critical"
+                    }
+                  },
+                  {
+                    "type": "vulnIsFixable",
+                    "extra": null
+                  }
+                ],
+                "type": "vulnSeverityAndThreats",
+                "failureType": "pkgVulnFailure",
+                "failuresCount": 0
+              },
+              {
+                "predicates": [
+                  {
+                    "type": "vulnSeverityEquals",
+                    "extra": {
+                      "level": "high"
+                    }
+                  },
+                  {
+                    "type": "vulnIsFixableWithAge",
+                    "extra": {
+                      "age": 30
+                    }
+                  }
+                ],
+                "type": "vulnSeverityAndThreats",
+                "failureType": "pkgVulnFailure",
+                "failuresCount": 14,
+                "pkgVulnFailures": [
+                  {
+                    "packageName": "libcrypto3",
+                    "packageVersion": "3.0.7-r2",
+                    "vulnerabilityName": "CVE-2022-4450"
+                  },
+                  {
+                    "packageName": "libcrypto3",
+                    "packageVersion": "3.0.7-r2",
+                    "vulnerabilityName": "CVE-2023-0215"
+                  },
+                  {
+                    "packageName": "libcrypto3",
+                    "packageVersion": "3.0.7-r2",
+                    "vulnerabilityName": "CVE-2023-0216"
+                  },
+                  {
+                    "packageName": "libcrypto3",
+                    "packageVersion": "3.0.7-r2",
+                    "vulnerabilityName": "CVE-2023-0217"
+                  },
+                  {
+                    "packageName": "libcrypto3",
+                    "packageVersion": "3.0.7-r2",
+                    "vulnerabilityName": "CVE-2023-0286"
+                  },
+                  {
+                    "packageName": "libcrypto3",
+                    "packageVersion": "3.0.7-r2",
+                    "vulnerabilityName": "CVE-2023-0401"
+                  },
+                  {
+                    "packageName": "libcrypto3",
+                    "packageVersion": "3.0.7-r2",
+                    "vulnerabilityName": "CVE-2023-0464"
+                  },
+                  {
+                    "packageName": "libssl3",
+                    "packageVersion": "3.0.7-r2",
+                    "vulnerabilityName": "CVE-2022-4450"
+                  },
+                  {
+                    "packageName": "libssl3",
+                    "packageVersion": "3.0.7-r2",
+                    "vulnerabilityName": "CVE-2023-0215"
+                  },
+                  {
+                    "packageName": "libssl3",
+                    "packageVersion": "3.0.7-r2",
+                    "vulnerabilityName": "CVE-2023-0216"
+                  },
+                  {
+                    "packageName": "libssl3",
+                    "packageVersion": "3.0.7-r2",
+                    "vulnerabilityName": "CVE-2023-0217"
+                  },
+                  {
+                    "packageName": "libssl3",
+                    "packageVersion": "3.0.7-r2",
+                    "vulnerabilityName": "CVE-2023-0286"
+                  },
+                  {
+                    "packageName": "libssl3",
+                    "packageVersion": "3.0.7-r2",
+                    "vulnerabilityName": "CVE-2023-0401"
+                  },
+                  {
+                    "packageName": "libssl3",
+                    "packageVersion": "3.0.7-r2",
+                    "vulnerabilityName": "CVE-2023-0464"
+                  }
+                ]
+              },
+              {
+                "predicates": [
+                  {
+                    "type": "vulnSeverity",
+                    "extra": {
+                      "level": "high"
+                    }
+                  },
+                  {
+                    "type": "vulnExploitableViaNetwork",
+                    "extra": null
+                  },
+                  {
+                    "type": "vulnIsFixable",
+                    "extra": null
+                  }
+                ],
+                "type": "vulnSeverityAndThreats",
+                "failureType": "pkgVulnFailure",
+                "failuresCount": 14,
+                "pkgVulnFailures": [
+                  {
+                    "packageName": "libcrypto3",
+                    "packageVersion": "3.0.7-r2",
+                    "vulnerabilityName": "CVE-2022-4450"
+                  },
+                  {
+                    "packageName": "libcrypto3",
+                    "packageVersion": "3.0.7-r2",
+                    "vulnerabilityName": "CVE-2023-0215"
+                  },
+                  {
+                    "packageName": "libcrypto3",
+                    "packageVersion": "3.0.7-r2",
+                    "vulnerabilityName": "CVE-2023-0216"
+                  },
+                  {
+                    "packageName": "libcrypto3",
+                    "packageVersion": "3.0.7-r2",
+                    "vulnerabilityName": "CVE-2023-0217"
+                  },
+                  {
+                    "packageName": "libcrypto3",
+                    "packageVersion": "3.0.7-r2",
+                    "vulnerabilityName": "CVE-2023-0286"
+                  },
+                  {
+                    "packageName": "libcrypto3",
+                    "packageVersion": "3.0.7-r2",
+                    "vulnerabilityName": "CVE-2023-0401"
+                  },
+                  {
+                    "packageName": "libcrypto3",
+                    "packageVersion": "3.0.7-r2",
+                    "vulnerabilityName": "CVE-2023-0464"
+                  },
+                  {
+                    "packageName": "libssl3",
+                    "packageVersion": "3.0.7-r2",
+                    "vulnerabilityName": "CVE-2022-4450"
+                  },
+                  {
+                    "packageName": "libssl3",
+                    "packageVersion": "3.0.7-r2",
+                    "vulnerabilityName": "CVE-2023-0215"
+                  },
+                  {
+                    "packageName": "libssl3",
+                    "packageVersion": "3.0.7-r2",
+                    "vulnerabilityName": "CVE-2023-0216"
+                  },
+                  {
+                    "packageName": "libssl3",
+                    "packageVersion": "3.0.7-r2",
+                    "vulnerabilityName": "CVE-2023-0217"
+                  },
+                  {
+                    "packageName": "libssl3",
+                    "packageVersion": "3.0.7-r2",
+                    "vulnerabilityName": "CVE-2023-0286"
+                  },
+                  {
+                    "packageName": "libssl3",
+                    "packageVersion": "3.0.7-r2",
+                    "vulnerabilityName": "CVE-2023-0401"
+                  },
+                  {
+                    "packageName": "libssl3",
+                    "packageVersion": "3.0.7-r2",
+                    "vulnerabilityName": "CVE-2023-0464"
+                  }
+                ]
+              }
+            ],
+            "failuresCount": 28
+          }
+        ],
+        "failuresCount": 28
+      }
+    ],
+    "status": "failed"
+  },
+  "info": {
+    "outputJSONPath": "sysdig_result.json",
+    "resultURL": "https://us2.app.sysdig.com/secure/#/scanning/assets/results/175d3c1805ef4f1b2f05e3328e9ba190/overview",
+    "resultID": "175d3c1805ef4f1b2f05e3328e9ba190",
+    "logPath": "/home/runner/work/scan-test/scan-test/scan-logs"
+  }
+}

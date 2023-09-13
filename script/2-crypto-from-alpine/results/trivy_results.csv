@@ -1,0 +1,41 @@
+id,CVE,packageName,name,version,exploit,nvd-severity
+sha256:d7401c9c3291a662df60db36c53a6832ad890aae314110fa5b9d1000eea45b42,CVE-2022-4450,libcrypto3,double free after calling PEM_read_bio_ex,3.0.7-r2,null,HIGH
+sha256:d7401c9c3291a662df60db36c53a6832ad890aae314110fa5b9d1000eea45b42,CVE-2023-0215,libcrypto3,use-after-free following BIO_new_NDEF,3.0.7-r2,null,HIGH
+sha256:d7401c9c3291a662df60db36c53a6832ad890aae314110fa5b9d1000eea45b42,CVE-2023-0216,libcrypto3,openssl: invalid pointer dereference in d2i_PKCS7 functions,3.0.7-r2,null,HIGH
+sha256:d7401c9c3291a662df60db36c53a6832ad890aae314110fa5b9d1000eea45b42,CVE-2023-0217,libcrypto3,openssl: NULL dereference validating DSA public key,3.0.7-r2,null,HIGH
+sha256:d7401c9c3291a662df60db36c53a6832ad890aae314110fa5b9d1000eea45b42,CVE-2023-0286,libcrypto3,X.400 address type confusion in X.509 GeneralName,3.0.7-r2,null,HIGH
+sha256:d7401c9c3291a662df60db36c53a6832ad890aae314110fa5b9d1000eea45b42,CVE-2023-0401,libcrypto3,openssl: NULL dereference during PKCS7 data verification,3.0.7-r2,null,HIGH
+sha256:d7401c9c3291a662df60db36c53a6832ad890aae314110fa5b9d1000eea45b42,CVE-2023-0464,libcrypto3,Denial of service by excessive resource usage in verifying X509 policy constraints,3.0.7-r2,null,HIGH
+sha256:d7401c9c3291a662df60db36c53a6832ad890aae314110fa5b9d1000eea45b42,CVE-2022-4203,libcrypto3,openssl: read buffer overflow in X.509 certificate verification,3.0.7-r2,null,MEDIUM
+sha256:d7401c9c3291a662df60db36c53a6832ad890aae314110fa5b9d1000eea45b42,CVE-2022-4304,libcrypto3,timing attack in RSA Decryption implementation,3.0.7-r2,null,MEDIUM
+sha256:d7401c9c3291a662df60db36c53a6832ad890aae314110fa5b9d1000eea45b42,CVE-2023-0465,libcrypto3,Invalid certificate policies in leaf certificates are silently ignored,3.0.7-r2,null,MEDIUM
+sha256:d7401c9c3291a662df60db36c53a6832ad890aae314110fa5b9d1000eea45b42,CVE-2023-0466,libcrypto3,Certificate policy check not enabled,3.0.7-r2,null,MEDIUM
+sha256:d7401c9c3291a662df60db36c53a6832ad890aae314110fa5b9d1000eea45b42,CVE-2023-1255,libcrypto3,Input buffer over-read in AES-XTS implementation on 64 bit ARM,3.0.7-r2,null,MEDIUM
+sha256:d7401c9c3291a662df60db36c53a6832ad890aae314110fa5b9d1000eea45b42,CVE-2022-4450,libssl3,double free after calling PEM_read_bio_ex,3.0.7-r2,null,HIGH
+sha256:d7401c9c3291a662df60db36c53a6832ad890aae314110fa5b9d1000eea45b42,CVE-2023-0215,libssl3,use-after-free following BIO_new_NDEF,3.0.7-r2,null,HIGH
+sha256:d7401c9c3291a662df60db36c53a6832ad890aae314110fa5b9d1000eea45b42,CVE-2023-0216,libssl3,openssl: invalid pointer dereference in d2i_PKCS7 functions,3.0.7-r2,null,HIGH
+sha256:d7401c9c3291a662df60db36c53a6832ad890aae314110fa5b9d1000eea45b42,CVE-2023-0217,libssl3,openssl: NULL dereference validating DSA public key,3.0.7-r2,null,HIGH
+sha256:d7401c9c3291a662df60db36c53a6832ad890aae314110fa5b9d1000eea45b42,CVE-2023-0286,libssl3,X.400 address type confusion in X.509 GeneralName,3.0.7-r2,null,HIGH
+sha256:d7401c9c3291a662df60db36c53a6832ad890aae314110fa5b9d1000eea45b42,CVE-2023-0401,libssl3,openssl: NULL dereference during PKCS7 data verification,3.0.7-r2,null,HIGH
+sha256:d7401c9c3291a662df60db36c53a6832ad890aae314110fa5b9d1000eea45b42,CVE-2023-0464,libssl3,Denial of service by excessive resource usage in verifying X509 policy constraints,3.0.7-r2,null,HIGH
+sha256:d7401c9c3291a662df60db36c53a6832ad890aae314110fa5b9d1000eea45b42,CVE-2022-4203,libssl3,openssl: read buffer overflow in X.509 certificate verification,3.0.7-r2,null,MEDIUM
+sha256:d7401c9c3291a662df60db36c53a6832ad890aae314110fa5b9d1000eea45b42,CVE-2022-4304,libssl3,timing attack in RSA Decryption implementation,3.0.7-r2,null,MEDIUM
+sha256:d7401c9c3291a662df60db36c53a6832ad890aae314110fa5b9d1000eea45b42,CVE-2023-0465,libssl3,Invalid certificate policies in leaf certificates are silently ignored,3.0.7-r2,null,MEDIUM
+sha256:d7401c9c3291a662df60db36c53a6832ad890aae314110fa5b9d1000eea45b42,CVE-2023-0466,libssl3,Certificate policy check not enabled,3.0.7-r2,null,MEDIUM
+sha256:d7401c9c3291a662df60db36c53a6832ad890aae314110fa5b9d1000eea45b42,CVE-2023-1255,libssl3,Input buffer over-read in AES-XTS implementation on 64 bit ARM,3.0.7-r2,null,MEDIUM
+sha256:d7401c9c3291a662df60db36c53a6832ad890aae314110fa5b9d1000eea45b42,CVE-2021-43816,github.com/containerd/containerd,containerd: Unprivileged pod may bind mount any privileged regular file on disk,v1.5.7,null,CRITICAL
+sha256:d7401c9c3291a662df60db36c53a6832ad890aae314110fa5b9d1000eea45b42,CVE-2022-23648,github.com/containerd/containerd,containerd: insecure handling of image volumes,v1.5.7,null,HIGH
+sha256:d7401c9c3291a662df60db36c53a6832ad890aae314110fa5b9d1000eea45b42,CVE-2022-23471,github.com/containerd/containerd,containerd is an open source container runtime. A bug was found in con ...,v1.5.7,null,MEDIUM
+sha256:d7401c9c3291a662df60db36c53a6832ad890aae314110fa5b9d1000eea45b42,CVE-2022-31030,github.com/containerd/containerd,containerd is an open source container runtime. A bug was found in the ...,v1.5.7,null,MEDIUM
+sha256:d7401c9c3291a662df60db36c53a6832ad890aae314110fa5b9d1000eea45b42,GHSA-5j5w-g665-5m35,github.com/containerd/containerd,Ambiguous OCI manifest parsing,v1.5.7,null,LOW
+sha256:d7401c9c3291a662df60db36c53a6832ad890aae314110fa5b9d1000eea45b42,CVE-2023-27561,github.com/opencontainers/runc,runc: volume mount race condition (regression of CVE-2019-19921),v1.1.2,null,HIGH
+sha256:d7401c9c3291a662df60db36c53a6832ad890aae314110fa5b9d1000eea45b42,CVE-2023-28642,github.com/opencontainers/runc,AppArmor can be bypassed when `/proc` inside the container is symlinked with a specific mount configuration,v1.1.2,null,HIGH
+sha256:d7401c9c3291a662df60db36c53a6832ad890aae314110fa5b9d1000eea45b42,CVE-2023-25809,github.com/opencontainers/runc,Rootless runc makes `/sys/fs/cgroup` writable,v1.1.2,null,MEDIUM
+sha256:d7401c9c3291a662df60db36c53a6832ad890aae314110fa5b9d1000eea45b42,CVE-2021-43565,golang.org/x/crypto,golang.org/x/crypto: empty plaintext packet causes panic,v0.0.0-20210322153248-0c34fe9e7dc2,null,HIGH
+sha256:d7401c9c3291a662df60db36c53a6832ad890aae314110fa5b9d1000eea45b42,CVE-2022-27191,golang.org/x/crypto,crash in a golang.org/x/crypto/ssh server,v0.0.0-20210322153248-0c34fe9e7dc2,null,HIGH
+sha256:d7401c9c3291a662df60db36c53a6832ad890aae314110fa5b9d1000eea45b42,CVE-2022-27664,golang.org/x/net,handle server errors after sending GOAWAY,v0.0.0-20220722155237-a158d28d115b,null,HIGH
+sha256:d7401c9c3291a662df60db36c53a6832ad890aae314110fa5b9d1000eea45b42,CVE-2022-41721,golang.org/x/net,x/net/http2/h2c: request smuggling,v0.0.0-20220722155237-a158d28d115b,null,HIGH
+sha256:d7401c9c3291a662df60db36c53a6832ad890aae314110fa5b9d1000eea45b42,CVE-2022-41723,golang.org/x/net,avoid quadratic complexity in HPACK decoding,v0.0.0-20220722155237-a158d28d115b,null,HIGH
+sha256:d7401c9c3291a662df60db36c53a6832ad890aae314110fa5b9d1000eea45b42,CVE-2022-41717,golang.org/x/net,excessive memory growth in a Go server accepting HTTP/2 requests,v0.0.0-20220722155237-a158d28d115b,null,MEDIUM
+sha256:d7401c9c3291a662df60db36c53a6832ad890aae314110fa5b9d1000eea45b42,GHSA-vvpx-j8f3-3w6h,golang.org/x/net,Uncontrolled Resource Consumption,v0.0.0-20220722155237-a158d28d115b,null,UNKNOWN
+sha256:d7401c9c3291a662df60db36c53a6832ad890aae314110fa5b9d1000eea45b42,CVE-2022-32149,golang.org/x/text,golang: golang.org/x/text/language: ParseAcceptLanguage takes a long time to parse complex tags,v0.3.7,null,HIGH
