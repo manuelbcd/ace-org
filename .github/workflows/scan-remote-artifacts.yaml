@@ -43,6 +43,9 @@ jobs:
               ${GITHUB_WORKSPACE}/cache/sysdig-cli-scanner \
                 --apiurl ${SYSDIG_SECURE_ENDPOINT} \
                 pull://${i} \
-                --console-log
+                --console-log \
+                --dbpath=${GITHUB_WORKSPACE}/cache/db/ \
+                --cachepath=${GITHUB_WORKSPACE}/cache/scanner-cache/
+              echo "Image: $i scanned"
             done
         continue-on-error: true

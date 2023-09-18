@@ -3,7 +3,7 @@ env:
     IMAGE_NAME: "imagebasic"
     BUILD_FOLDER: "app-basic"
 
-name: Build and Scan with Sysdig
+name: Scan with Sysdig locally built objects
 on:
   workflow_dispatch:
 
