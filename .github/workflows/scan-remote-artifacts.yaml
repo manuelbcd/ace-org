@@ -49,3 +49,12 @@ jobs:
               echo "Image: $i scanned"
             done
         continue-on-error: true
+
+      - name: Test iteration
+        run: |
+          IFS="," read -a myarray <<< ${{ env.IMAGES_ARRAY }}
+          for i in "${myarray[@]}"; do
+            echo "Value: ${i}"
+            echo "Value: ${i%.*}"
+          done
+
