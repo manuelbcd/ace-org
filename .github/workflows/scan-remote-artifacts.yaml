@@ -2,7 +2,7 @@ env:
     SYSDIG_SECURE_ENDPOINT: "https://us2.app.sysdig.com"
     IMAGE_NAME: "imagebasic"
     BUILD_FOLDER: "app-basic"
-    IMAGES_ARRAY: 'nginx:1.25.2-bookworm-perl,redis:7.0,httpd:latest'
+    IMAGES_ARRAY: 'nginx:1.25.2-bookworm-perl,redis:7.0,httpd:latest,vulnerables/web-dvwa:latest,ubuntu:kinetic,busybox:musl,hello-world:linux'
 
 name: Scan remote objects with Sysdig
 on:
